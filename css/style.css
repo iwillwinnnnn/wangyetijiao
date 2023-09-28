@@ -1,0 +1,249 @@
+img {
+  max-width: 100%;
+  outline: none;
+}
+
+.vcenter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+body {
+  font-family: "微软雅黑";
+  min-width: 320px;
+  overflow-x: hidden;
+}
+ul {
+  padding: 0px;
+}
+ul li {
+  list-style: none;
+}
+
+.clearfix {
+  overflow: hidden;
+  _zoom: 1;
+}
+@media (max-width: 1000px) {
+}
+.logo {
+  max-width: 650px;
+  float: left;
+  width: 100%;
+}
+.dingbudatu{
+  width: 100%;
+  overflow: hidden;
+}
+
+.wenzi {
+  width: 100%;
+  overflow: hidden;
+}
+.wenzi .ziti {
+  max-width: 1240px;
+  width: 95%;
+  margin: auto;
+  text-align: left;
+  color: #666666;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.wenzi .ziti p {
+  margin: 10px auto;
+}
+
+.biaoti {
+  text-align: center;
+  margin: 60px auto 40px;
+}
+
+.biaoti .span1 {
+  font-size: 40px;
+  font-family: fixedsys;
+  color: #666666;
+  font-weight: bold;
+}
+
+.jingdianzhanshi {
+  max-width: 1240px;
+  width: 95%;
+  margin: auto;
+  color: #666666;
+}
+.shengfenming {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  color: #666666;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.jingdianzhanshi p {
+  margin: 30px auto;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+}
+.jingdianzhanshi .img {
+  margin-bottom: 30px;
+}
+.jingdianzhanshi .img .pic {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+  position: relative;
+}
+.jingdianzhanshi .img .pic i {
+  display: block;
+  padding-bottom: 60%;
+}
+
+.jgss{
+  max-width: 1240px;
+  width: 95%;
+  margin: auto;
+}
+.jgss ul {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.jgss ul li {
+  float: left;
+  width: 32%;
+  position: relative;
+  max-width: 395px;
+  margin-left: 1%;
+  margin-bottom: 30px;
+}
+.jgss ul li a {
+  display: block;
+  position: relative;
+  color: #666666;
+  font-size: 18px;
+  line-height: 30px;
+  overflow: visible;
+}
+.jgss ul li a img {
+  z-index: 9999;
+  transition: 0.3s;
+}
+.jgss ul li a i {
+  display: block;
+  padding-bottom: 70%;
+}
+
+.dingbu2 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+.dingbu2 div {
+  max-width: 1920px;
+}
+.weizhi {
+  max-width: 1240px;
+  width: 98%;
+  text-align: right;
+  line-height: 50px;
+  color: #666666;
+  font-size: 16px;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.weizhi a {
+  color: #666666;
+}
+
+.meishi {
+  max-width: 1240px;
+  width: 95%;
+  margin: auto;
+}
+.meishi ul {
+  width: 100%;
+}
+.meishi ul li {
+  padding: 30px 0px;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+.meishi ul li .meishi_left {
+  width: 68%;
+  float: left;
+}
+.meishi ul li .meishi_left .pic {
+  width: 17%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.meishi ul li .meishi_left .pic img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  vertical-align: middle;
+  margin: auto;
+  transition: 0.3s;
+}
+.meishi ul li .meishi_left .pic i {
+  display: block;
+  padding-bottom: 100%;
+}
+.meishi ul li .meishi_left .txt {
+  width: 81%;
+  float: right;
+}
+.meishi ul li .meishi_left .txt a {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  width: 95%;
+  display: block;
+  margin-bottom: 15px;
+  height: 25px;
+  line-height: 25px;
+}
+.meishi ul li .meishi_left p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  width: 98%;
+  max-height: 72px;
+  overflow: hidden;
+}
+.meishi ul li .meishi_right {
+  width: 15%;
+  float: right;
+  border-left: 1px solid #cccccc;
+  min-height: 50px;
+  color: #e0e0e0;
+  font-family: arial;
+  text-align: left;
+  padding-left: 8%;
+  background: url(../images/xiangqing.png) no-repeat right;
+  min-height: 95px;
+}
+.meishi ul li .meishi_right xiangq {
+  font-size: 18px;
+}
